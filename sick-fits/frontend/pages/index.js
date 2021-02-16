@@ -1,9 +1,9 @@
-import Page from '../components/Page';
-
 export default function IndexPage() {
   return (
-    <Page anotherProps="The heck !!!!">
+    <>
       <p>Hello</p>
-    </Page>
+      <code>var</code>
+      <p>I am a child</p>
+    </>
   );
 }
